@@ -16,7 +16,7 @@ class WebdavPlugin(StellarPlayer.IStellarPlayerPlugin):
         self.playurl = []
         self.url = ''
         self.webdav = None
-        self.path = '/'
+        self.path = '/dav/'
         self.dir = None
         self.username = ''
         self.password = ''
